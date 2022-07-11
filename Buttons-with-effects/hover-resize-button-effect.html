@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Twitter button</title>
+    <title>Hover resize effect - Buttons</title>
     <style>
         button{
-            background-color: rgb(2, 158, 255);
+            background-color: green;
             color: white;
             border: none;
-            border-radius: 18px;
-            font-weight: bold;
-            font-size: 15px;
+            padding: 8px 15px 8px 15px;
+            transition: padding 0.15s;
             cursor: pointer;
-            padding: 10px 16px 10px 16px;
+        }
+
+        button:hover{
+            padding: 8px 25px 8px 25px;
         }
     </style>
 </head>
 <body>
-    <button>Tweet</button>
+    <button>One</button>
+    <button>Two</button>
+    <button>Three</button>
 </body>
 </html>
+
